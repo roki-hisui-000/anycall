@@ -1,1 +1,19 @@
-please access : http://localhost:3000/msg/<massege>
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>メッセージ送信</title>
+    </head>
+    <body>
+    <header class="header"></header>
+    <main class="main">
+        <form action='/message' method='GET'>
+            <h1>Send Message</h1>
+            <input name='msg' type='text' maxlength='10' size='20' placeholder='please input message.'>
+            <br />
+            <button type='submit'>send</button>
+        </form>    
+    </main>
+    <footer class="footer"></footer>
+    </body>
+</html>
